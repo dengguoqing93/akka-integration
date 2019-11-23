@@ -4,13 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.guoqing</groupId>
+    <groupId>org.spiral</groupId>
     <artifactId>akka-integration</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>java-akka</module>
         <module>scala-akka</module>
         <module>common</module>
+        <module>akka-action</module>
     </modules>
 
     <properties>
@@ -64,7 +65,6 @@
             </dependency>
 
 
-
             <dependency>
                 <groupId>com.typesafe.akka</groupId>
                 <artifactId>akka-cluster_2.12</artifactId>
@@ -95,7 +95,7 @@
             </dependency>
 
             <dependency>
-                <groupId>org.guoqing</groupId>
+                <groupId>org.spiral</groupId>
                 <artifactId>common</artifactId>
                 <version>${project.version}</version>
             </dependency>

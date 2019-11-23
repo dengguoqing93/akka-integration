@@ -1,4 +1,4 @@
-package org.guoqing.akka.scala.demo
+package org.spiral.akka.scala.demo
 
 import java.util.concurrent.TimeUnit
 

@@ -1,11 +1,4 @@
-package org.guoqing.akka.java.demo;
-
-import akka.actor.ActorRef;
-import akka.actor.ActorSystem;
-import akka.actor.Props;
-
-import java.math.BigDecimal;
-import java.math.RoundingMode;
+package org.spiral.akka.java.demo;
 
 /**
  * 第一个akka程序

@@ -1,4 +1,4 @@
-package org.guoqing.akka.highconcurrent;
+package org.spiral.akka.highconcurrent;
 
 import akka.actor.ActorRef;
 import akka.actor.Props;

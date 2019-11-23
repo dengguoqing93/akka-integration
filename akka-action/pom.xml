@@ -9,15 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>java-akka</artifactId>
+    <artifactId>akka-action</artifactId>
 
-    <description>java实现akka</description>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.spiral</groupId>
-            <artifactId>common</artifactId>
-        </dependency>
-    </dependencies>
 
 </project>

@@ -1,4 +1,4 @@
-package org.guoqing.akka.java.demo;
+package org.spiral.akka.java.demo;
 
 import akka.actor.AbstractActor;
 import akka.actor.OneForOneStrategy;
