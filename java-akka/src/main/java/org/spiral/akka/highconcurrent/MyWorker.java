@@ -1,12 +1,13 @@
 package org.spiral.akka.highconcurrent;
 
-import akka.actor.*;
+import akka.actor.ActorRef;
+import akka.actor.ActorSystem;
+import akka.actor.Props;
+import akka.actor.UntypedAbstractActor;
 import akka.event.Logging;
 import akka.event.LoggingAdapter;
 import com.typesafe.config.ConfigFactory;
-import scala.concurrent.duration.Duration;
 
-import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
 /**
@@ -55,7 +56,7 @@ public class MyWorker extends UntypedAbstractActor {
                                                 ConfigFactory.load("samplehello.conf"));
         ActorRef worker = system.actorOf(Props.create(MyWorker.class), "worker");
 
-        final Inbox inbox = Inbox.create(system);
+        /*final Inbox inbox = Inbox.create(system);
         inbox.watch(worker);
         inbox.send(worker, Msg.WORKING);
         inbox.send(worker, Msg.DONE);
@@ -71,7 +72,7 @@ public class MyWorker extends UntypedAbstractActor {
             } else {
                 System.out.println(receive);
             }
-        }
+        }*/
     }
 
 }
